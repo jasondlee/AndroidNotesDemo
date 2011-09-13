@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+	    android:id="@+id/noteNameLabel"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:textSize="16sp"
+	    android:text="Note Name" />
+	
+	<TextView
+	    android:id="@+id/noteName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:textSize="16sp"/>
+	
+	<TextView
+	    android:id="@+id/noteBodyLabel"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:textSize="16sp"
+	    android:text="Note Body" />
+	<TextView
+	    android:id="@+id/noteBody"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:textSize="16sp"
+	    android:singleLine="false" />
+
+	<Button android:id="@+id/button_ok"
+	     android:layout_height="wrap_content"
+	     android:layout_width="fill_parent"
+	     android:text="OK"
+	     android:onClick="onButtonPressed" />
+</LinearLayout>
